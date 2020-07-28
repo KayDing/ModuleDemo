@@ -1,0 +1,22 @@
+{
+  "name": "Foundation",
+  "version": "0.1.0",
+  "summary": "A short description of Foundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kayjackson@163.com/Foundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kayjackson@163.com": "dinglei.hikari@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/kayjackson@163.com/Foundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Foundation/Classes/**/*"
+}

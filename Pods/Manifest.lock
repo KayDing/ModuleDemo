@@ -1,0 +1,23 @@
+PODS:
+  - Foundation (0.1.0)
+  - MGJRouter (0.10.0)
+
+DEPENDENCIES:
+  - Foundation (from `Modules/Foundation`)
+  - MGJRouter (= 0.10.0)
+
+SPEC REPOS:
+  trunk:
+    - MGJRouter
+
+EXTERNAL SOURCES:
+  Foundation:
+    :path: Modules/Foundation
+
+SPEC CHECKSUMS:
+  Foundation: c1d1a7e8c112f6a5a8abd37199f13e938bca9e9d
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+
+PODFILE CHECKSUM: 4b00c3ab90a6cf3b0283d96200f1a8c8a0720a23
+
+COCOAPODS: 1.9.3
