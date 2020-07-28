@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = Foundation;
+			productName = Foundation;
 		};
 /* End PBXAggregateTarget section */
 
@@ -43,9 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C98822F3E18C88C2E08899425791A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		05C98822F3E18C88C2E08899425791A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A75FD572DB0EECD612BDB82DE0E8C87 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
 		223465442B0B3A10B716C539CBF20398 /* MGJRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.debug.xcconfig; sourceTree = "<group>"; };
+		2B5C775D24CFD32300B4E91D /* RouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouterManager.m; path = Foundation/RouterManager.m; sourceTree = "<group>"; };
+		2B5C775E24CFD32300B4E91D /* RouterPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouterPublic.h; path = Foundation/RouterPublic.h; sourceTree = "<group>"; };
+		2B5C775F24CFD32300B4E91D /* RouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouterManager.h; path = Foundation/RouterManager.h; sourceTree = "<group>"; };
+		2B5C776124CFD32300B4E91D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2B5C776224CFD32300B4E91D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2B5C776324CFD32300B4E91D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2B5C776424CFD32300B4E91D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		362C8B3D58BF6E23239149F76741D1D8 /* Pods-ModuleDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		39E26731FBBF2F08018D2D8D61D34785 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
 		4FF9D3C4CEDCA4A96EBA7D1039080E54 /* Pods-ModuleDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,12 +61,12 @@
 		62BB79EED71B516DA00067AA03B14771 /* Pods-ModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		65FEF6B0170A005F40A49CA902977879 /* MGJRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.release.xcconfig; sourceTree = "<group>"; };
 		75DF135E6F212CD17B401B1DBAD12640 /* Foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Foundation.debug.xcconfig; sourceTree = "<group>"; };
-		7B1FB3877F7FAA19795E290F949BE360 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGJRouter.a; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A4B5A46D41D4F616D308A674D1C6E0 /* libPods-ModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModuleDemo.a"; path = "libPods-ModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B1FB3877F7FAA19795E290F949BE360 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A4B5A46D41D4F616D308A674D1C6E0 /* libPods-ModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C29AD3D03B725F8D058019757290F543 /* Foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Foundation.release.xcconfig; sourceTree = "<group>"; };
-		E38FFF06A849EB3FCECD3310616A6FD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E3D3AABD70F7D377EB8C3EA996BD6B0A /* Foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Foundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E38FFF06A849EB3FCECD3310616A6FD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E3D3AABD70F7D377EB8C3EA996BD6B0A /* Foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Foundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E62DB3ED402CF5C34B9F541C56419251 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
 		EACFF95B7111FDD205F935741B0AC250 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
 		FDF6CD504B8DB6B92484EDED024183B2 /* Pods-ModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +113,18 @@
 			path = "Target Support Files/Pods-ModuleDemo";
 			sourceTree = "<group>";
 		};
+		2B5C776024CFD32300B4E91D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B5C776124CFD32300B4E91D /* TestViewController.m */,
+				2B5C776224CFD32300B4E91D /* MainViewController.m */,
+				2B5C776324CFD32300B4E91D /* TestViewController.h */,
+				2B5C776424CFD32300B4E91D /* MainViewController.h */,
+			);
+			name = ViewController;
+			path = Foundation/ViewController;
+			sourceTree = "<group>";
+		};
 		41EF00DB12143D1D9415D4A097FC7BDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +148,6 @@
 				E62DB3ED402CF5C34B9F541C56419251 /* MGJRouter.m */,
 				A99E4BBDA68D0CEF767305871AA3DCC2 /* Support Files */,
 			);
-			name = MGJRouter;
 			path = MGJRouter;
 			sourceTree = "<group>";
 		};
@@ -193,6 +212,10 @@
 		E5E24875C0002D258738B4B5AC5B8BDF /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				2B5C775F24CFD32300B4E91D /* RouterManager.h */,
+				2B5C775D24CFD32300B4E91D /* RouterManager.m */,
+				2B5C775E24CFD32300B4E91D /* RouterPublic.h */,
+				2B5C776024CFD32300B4E91D /* ViewController */,
 				66415281BC03FA336BDF0B00298A4200 /* Pod */,
 				00638D94A307D62C1C51AA21B7F6650B /* Support Files */,
 			);
